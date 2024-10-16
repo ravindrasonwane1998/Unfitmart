@@ -1,0 +1,126 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+h1{
+    text-align: center;
+}
+.section-main{
+    display: flex;
+    padding: 1rem;
+    border: solid;
+}
+
+/* section ine css  */
+.section-one{
+    width:500px;
+    background-color: skyblue; 
+}
+.user-img{
+    align-content: center ;
+    margin:47px;
+    }
+.user-img img{
+    width:320px;
+    height:320px;
+    padding:25px;
+    background-color: cadetblue;
+}
+
+.contact-info ul{
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+.contact-info li img{
+ width: 30px;
+ padding-right: 5px;
+}
+
+/* name section css  */
+.name{
+    position: absolute;
+    margin:100px 00px 1px 420px;
+    font-size: 70px;
+    background-color: rgb(255, 253, 159);
+    width: 65rem;
+    text-align: center;
+    align-content: center;
+}
+
+/* section two start */
+
+.section-two{
+  
+    width:1010px;
+    margin-top: 220px;
+    padding: 30px;
+}
+.section-two ul{
+line-height: 20px;
+}
+.section-two ul li{
+    font-size: 20px;
+}
+.exp {
+    font-size: 30px;
+}
+.javascript, button{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+  
+}
+.javascript button{
+    border-radius: 10px;
+    background-color: rgb(100, 208, 86);
+    color: rgb(255, 255, 255);
+}
+/* media queries  */
+
+@media screen and (max-width:600px) {
+    .section-main{
+        align-items: center;
+    }
+    .user-img{
+        background-color: cadetblue;
+        align-content: center ;
+        margin: 30px;
+    }
+    .user-img img{
+        width:100px;
+        height:100px;
+        padding:10px;
+        background-color: cadetblue;
+        font-size: 30px;
+    }
+    .contact-info ul{
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 10px;
+        display: inline-block;
+    }
+    .name {
+        position: absolute;
+        margin: 100px 00px 1px 420px;
+        font-size: 40px;
+        background-color: rgb(255, 253, 159);
+        width: 0rem;
+        text-align: center;
+        align-content: center;
+    }
+
+}
+@media screen and (min-width:1500px), (max-width:1700px){
+    .name {
+        position: absolute;
+        margin: 100px 0px 1px 420px;
+        font-size: 50px;
+        background-color: rgb(255, 253, 159);
+        width: 65rem;   
+        text-align: center;
+        align-content: center;
+    }
+}
+
+

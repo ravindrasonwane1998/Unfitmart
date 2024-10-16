@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Rsesume</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="section-main" >
+
+<!-- section one started -->
+
+      <div class="section-one" id="changecolor">
+    
+        <div class="user-img">
+          <img src="./img//Ravindra Sonwane photo original.jpg" alt="" />
+        </div>
+
+        <div class="contact-info">
+          <ul>
+            <li><img src="./img//call.png" /> + 91 8805946400</li>
+            <li>
+              <img src="./img//gmail.webp" /> ravindrasonwane1998@gmail.com
+            </li>
+            <li><img src="./img//location.png" /> Bodakdev,Ahmedabad</li>
+            <li>
+              <a href="https://www.linkedin.com/in/ravindra-sonwane-425556191/"
+                > <img
+                  src="./img//linkedin.jpg"
+                />https://www.linkedin.com/in/ravindra-sonwane-425556191/ 
+              </a> 
+            </li>
+          </ul>
+        </div>
+
+      </div>
+<!------- section  end  -->
+
+<!-- second two started  -->
+
+      <div class="section-two">
+   
+        <p class="exp">Experience </p>
+        <ul>
+            <li><strong> Training-Industrial Mentors Pvt Ltd </strong></li>
+            <p>Learned the technologies : ReactJs ,HTML,CSS3,Jquery,Bootstrap</p>
+            
+            <li><strong>Feb-2023 to july-2023</strong>  </li>
+            <p>KSJ technologies Pvt Ltd </p>
+            <p>Front end Developer</p>
+
+            <li><strong> Projects</strong> </li>
+            <p>1. Digiliance E-Compliance System</p>
+            <p>Develope front end of website using HTML,CSS3,Javascript,Reactjs</p>
+        </ul>
+        <h1>TASK 2</h1>
+        <div class="javascript">
+        <button type="button" onclick="changeFunc()">Change Background Color</button>
+        <button type="button" onclick="changeName()">Change Name</button>
+        <button type="button" onclick="reset()">Reset Name</button>
+        </div>
+      </div>
+<!-- section two end  -->
+
+<!-- name section started  -->
+      <div class="name" >
+        <p id="changename">RAVINDRA SONWANE</p>
+      </div>
+      <!-- name section twoend  -->
+
+    </div>
+
+    <!-- section main end  -->
+
+    <!-- javascript started -->
+<script>
+    function changeFunc() {
+        document.getElementById("changecolor").style.backgroundColor = "orange";
+     }
+     function changeName() {
+        document.getElementById("changename").innerHTML = "Unfit Mart";
+     }
+     function reset() {
+        document.getElementById("changename").innerHTML = "Ravindra Sonwane";
+        document.getElementById("changecolor").style.backgroundColor = "skyblue";
+
+     }
+     </script>
+  </body>
+</html>
